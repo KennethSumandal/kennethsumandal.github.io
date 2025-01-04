@@ -28,7 +28,7 @@
     .top-line {
         border-top: 3px solid #333;
         margin-top: 40px;
-        width: 100%;
+        width: 80%;
     }
     h2, h3{
         color: #17508a;
@@ -46,4 +46,16 @@
     ul {
         list-style: disc inside;
         
+    }
+    @media (max-width: 768px) {
+        header h1 {
+            font-size: 18px; /* Smaller font for mobile */
+        }
+    }
+
+    /* Example for desktop */
+    @media (min-width: 769px) {
+        header h1 {
+            font-size: 30px; /* Larger font for desktop */
+        }
     }
