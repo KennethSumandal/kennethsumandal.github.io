@@ -9,12 +9,13 @@ body {
     color: #333;
 }
 .container {
-    width: 80%;
+    width: 70%;
     max-width: 800px;
     margin: auto;
     padding: 20px;
     overflow: hidden;
     border: 2px solid #333;
+    align-items: center;
 }
 .container img {
     float: right;
