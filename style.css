@@ -9,7 +9,7 @@ body {
     color: #333;
 }
 .container {
-    width: 70%;
+    width: 100%;
     max-width: 800px;
     margin: auto;
     padding: 20px;
@@ -19,7 +19,7 @@ body {
 }
 .container img {
     float: right;
-    width: 80%;       /* Make the width 100% of its container */
+    width: 100%;       /* Make the width 100% of its container */
     max-width: 150px;  /* Maximum width will be 150px, but it can shrink on smaller screens */
     height: auto;      /* Maintain aspect ratio */
     border-radius: 50%;
