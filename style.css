@@ -47,15 +47,3 @@ ul {
     list-style: disc inside;
     
 }
-@media (max-width: 70%) {
-    header h1 {
-        font-size: 20px; /* Smaller font for mobile */
-    }
-}
-
-/* Example for desktop */
-@media (min-width: 769px) {
-    header h1 {
-        font-size: 30px; /* Larger font for desktop */
-    }
-}
